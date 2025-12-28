@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container h2 {
+  color: #333;
+  margin-top: 30px;
+}
+
+.container p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid black;
+  height: 500px;
+}
+
+.container .social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container .social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #333;
+}
+.container .social-icons button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+.container .social-icons a:hover {
+  color: #007bff;
+}
+@media(max-width: 700px){
+    .container{
+        margin-top: 100px;
+    }
+    .container img{
+        height: 198.15px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .container h2{
+        font-size: 15px
+    }
+    .container p{
+        font-size: 10px;
+    }
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="Styles.css">
+<title>Document</title>
+</head>
+<body>
+    <header>
+
+        <div style="display: flex;
+     justify-content: space-evenly;" class="logo"><img src="School_logo.png" alt="logo">
+            <p>Patlakhawa High School (H:S)</p>
+        </div>
+            <nav class="navber">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Teacher.html">Teacher</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Vlog</a></a></li>
+                    <li><a href="gallery.html">Gallary</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul>
+            </nav>
+    
+            <button class="login" onclick="location.href='login.html'">Login</button>
+
+            <!-- ....... toggleMenu.....-->
+
+
+
+            <div class="menu_icon"  onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="menu">
+                <ul class="menu_ul">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Teacher.html">Teacher</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Vlog</a></a></li>
+                    <li><a href="gallery.html">Gallary</a></li>
+                    <li><a href="About.html">About us</a></li>
+                </ul>
+        <button class="login2" onclick="location.href='login.html'">Login</button>
+            </nav>
+    </header>
+  
+<div class="container">
+  <h1>Meet the Head Mistress</h1>
+  <img src="Piyali_mam_1.jpg">
+  <h2>Pyali Majumdar,</h2>
+ 
+  <p>
+      Piyali Majumdar is the esteemed headmistress of Patlakhawa High School (H.S), where she brings a wealth of experience and a strong educational background. Holding an MA and B.Ed., she exemplifies a commitment to academic excellence and professional development. Her leadership style is characterized by a balanced blend of firmness and compassion, creating a supportive environment for students and staff alike. Under her capable guidance, Patlakhawa High School has achieved notable academic success and cultivated a positive school culture.
+  </p>
+
+
+  <p>
+      Beyond her academic credentials, Piyali emphasizes the importance of holistic development, encouraging students to engage in extracurricular activities and community service initiatives. She values open communication and actively seeks feedback from students, parents, and teachers to foster a collaborative school community. Piyali is dedicated to integrating technology into the curriculum, enhancing learning experiences and preparing students for future challenges.
+
+  </p>
+  
+  
+  <p>
+      Piyali Majumdar's vision for Patlakhawa High School extends beyond academic achievement; she aims to develop well-rounded individuals equipped with critical thinking and problem-solving skills. Her proactive approach to education ensures that students receive a comprehensive and dynamic learning experience. Piyali's leadership inspires both students and staff to strive for excellence, making Patlakhawa High School a beacon of educational excellence in the region.
+
+
+  </p>
+  
+  
+  
+  <p>
+      Under her guidance, Patlakhawa High School continues to innovate and adapt to meet the evolving needs of students in a rapidly changing world. Piyali's commitment to nurturing the talents and potential of every student underscores her dedication to their personal and academic growth. She promotes a culture of inclusivity and respect, where diversity is celebrated and each student feels valued and supported.
+  </p>
+  <p>
+      Piyali Majumdar's leadership philosophy emphasizes empathy, integrity, and a student-centered approach to education. She believes in empowering students to become active participants in their own learning journey. Piyali fosters a culture of continuous improvement, where ongoing professional development for teachers plays a crucial role in enhancing teaching practices and student outcomes.
+  </p>
+  
+  
+  <p>
+      Her unwavering dedication to educational excellence and student welfare has earned Piyali the respect and admiration of the school community. She leads by example, demonstrating a strong work ethic and a genuine passion for nurturing the next generation of leaders. Piyali's influence extends beyond the school walls, as she actively engages with parents and stakeholders to build strong partnerships that support student success.
+  </p>
+  
+  <p>
+      In conclusion, Piyali Majumdar's leadership has transformed Patlakhawa High School into a hub of academic achievement and personal growth. Her strategic initiatives and collaborative approach have positioned the school as a model institution in the region. Piyali's legacy will continue to inspire generations of students to reach their full potential and make meaningful contributions to society.
+  </p>
+  <p>Let's go!</p>
+  <p>Piyali Majumdar</p>
+  <p>Head Mistress</p>
+
+  <div class="social-icons">
+    <a href="https://www.instagram.com/prabir2463?igsh=bWVreDhiZ25ycGM3"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/share/aXjUX5ogy1886Nns/?mibextid=qi2Omg"><i class="fab fa-facebook-f"></i></a>
+    <button onclick="callNumber('+919679494045')">&#128222;</button>
+  </div>
+</div>
+ <footer>&copy; 2024 patlakhawa high school(H.S). All rights reseved. Made by Jay Barman</footer>
+ <script src="script.js"></script>
+</body>
+
+</html>

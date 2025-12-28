@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+    .about_box{
+            height: auto;
+            width: 80%;
+            background-color: rgb(56, 90, 154);
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            border: 3px solid #fff;
+            border-radius: 15px;
+        }
+        .about_box h1{
+            text-align: center;
+            color: white;
+        }
+        .about_box p{
+            padding: 0 20px 0 20px;
+            font-size: 20px;
+            color: #fff;
+            font-family: sans-serif;
+        }
+        .about_box iframe{
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 50px;
+            height: 300px;
+            border-radius: 15px;
+        }
+        @media(max-width:700px){
+        .about_box p{
+            font-size: 7.916px;
+        }
+        .about_box h1{
+            font-size: 15px;
+        }
+        .about_box iframe{
+            height: 118.74px;
+            border-radius: 5px;
+        }
+        .about_box{
+            border-radius: 10px;
+        }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <header>
+
+    <div style="display: flex;
+
+     justify-content: space-evenly;" class="logo"><img src="School_logo.png" alt="logo">
+      <p>Patlakhawa High School (H:S)</p>
+    </div>
+    <nav class="navber">
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Teacher.html">Teacher</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="#">Vlog</a></a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="About.html">About us</a></li>
+      </ul>
+    </nav>
+
+    <button class="login" onclick="location.href='login.html'">Login</button>
+
+    <!-- ....... toggleMenu.....-->
+
+
+
+    <div class="menu_icon" onclick="toggleMenu()">
+      
+        <div class="hamburger-menu" id="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <nav class="menu">
+      <ul class="menu_ul">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Teacher.html">Teacher</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="#">Vlog</a></a></li>
+        <li><a href="gallery.html">Gallary</a></li>
+        <li><a href="About.html">About us</a></li>
+      </ul>
+      <button class="login2" onclick="location.href='login.html'">Login</button>
+    </nav>
+
+  </header>
+  
+    <div class="about_box">
+        <h1>ABOUT US</h1>
+        <p>PATLAKHAWA HIGH SCHOOL was established in 1973 and it is managed by the Department of Education. It is located in Rural area. It is located in COOCH BEHAR-II block of KOCH BIHAR district of West Bengal. The school consists of Grades from 5 to 12. The school is Co-educational and it doesn't have an attached pre-primary section. The school is N/A in nature and is not using school building as a shift-school. Bengali is the medium of instructions in this school. This school is approachable by all weather road. In this school academic session starts in April.</p>
+        <p>Patlakhawa High School (H.S) is a distinguished educational institution known for its commitment to academic excellence and holistic development. Located in a serene and conducive environment, the school offers a comprehensive curriculum that blends traditional values with modern educational practices. With dedicated and experienced faculty, state-of-the-art facilities, and a vibrant student community, Patlakhawa High School (H.S) provides a nurturing atmosphere where students are encouraged to achieve their full potential. The school is celebrated not only for its strong academic performance but also for its emphasis on extracurricular activities, fostering a well-rounded education.</p>
+        <p>Patlakhawa High School (H.S) stands as a beacon of learning and growth in its community. Renowned for its rigorous academic standards and supportive teaching staff, the school is dedicated to fostering intellectual curiosity and personal development among its students. The campus boasts modern classrooms, well-equipped laboratories, and extensive sports facilities, creating an environment where students can thrive both academically and physically. Emphasizing a balanced education, Patlakhawa High School (H.S) encourages participation in a variety of extracurricular activities, ensuring students develop diverse skills and interests. This school is a place where young minds are nurtured to become future leaders and responsible citizens.</p>
+        <iframe src="School_video3(2).mp4"></iframe>
+    </div>
+     <footer>&copy; 2024 patlakhawa high school(H.S). All rights reseved. Made by Jay Barman</footer>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login</title>
+    <style>
+body{
+    margin: 0;
+    padding: 0;
+    font-family:times new roman, Arial, Helvetica, sans-serif;
+}
+ .log_form{
+        height: 320px;
+        width: 210px;
+        background-color: #fff;
+        margin: 50px 0 0 40%;
+        border-radius: 10px;
+        box-shadow: 0 10px 15px rgba(1, 1, 1, 0.50);
+    }
+    div h3{
+        text-align: center;
+        padding-top: 25px;
+        font-weight: 600;
+        
+    }
+    .log{
+        background-color: rgb(99, 99, 250);
+        margin-left: 18px;
+        font-family:  Times, serif;
+        color: rgb(255, 255, 255);
+        height: 30px;
+        width: 90px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: 2px solid grey;
+        border-right: none;
+        font-weight: 700;
+    }
+    .sing{
+        margin-left: -10px;
+        height: 30px;
+        width: 90px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: transparent;
+        border: 2px solid grey;
+        border-left: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+    }
+.log:hover{
+    background-color: rgb(34, 11, 168);
+    border-radius: 5px; 
+    color: white;
+    font-weight: 700;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+   .sing:hover{
+    background-color: rgb(34, 11, 168);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.email{
+    width: 80%;
+    position: relative;
+    top: 30px;
+    left: 17px;
+    height: 20px;
+    box-shadow: 0px 1px 2px grey;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.password{
+    width: 80%;
+    position: relative;
+    top: 40px;
+    left: 17px;
+    height: 20px;
+    box-shadow: 0px 1px 2px grey;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.password::placeholder{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: grey;
+    position: relative;
+    left: 10px;
+}
+.email::placeholder{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: grey;
+    position: relative;
+    left: 10px;
+}
+.email:hover{
+    border: 1px solid black;
+}
+.password:hover{
+    border: 1px solid black;
+}
+#fp{
+    position: relative;
+    top: 45px;
+    left: 17px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(0, 102, 255);
+    font-size: 12px;
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80%;
+    background-color: rgb(0, 0, 231);
+    margin: 50px 0 0 17px;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid grey;
+}
+#p1{
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif ;
+}
+#p1 a{
+    text-decoration: none;
+}
+@media (max-width: 700px){
+.log_form{
+    margin: 50px 0 0 25%;
+}
+}
+
+    </style>
+</head>
+<body>
+    <div class="log_form">
+        <h3>Login Form</h3>
+         <button class="log">Login</button>
+         <button class="sing" onclick="location.href='singin.html'">Singup</button>
+         <input class="email" type="email" placeholder="Email Address">
+         <input class="password" type="password" placeholder="Password">
+           <br><a id="fp" href="#">Forgot Password ?</a>
+         <div id="login">Login</div>
+         <p id="p1">Create an account <a href="singin.html">Singup now</a></p>
+    </div>
+</body>
+</html>
