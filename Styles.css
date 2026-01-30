@@ -116,14 +116,13 @@ header p{
      display: flex;
      justify-content: flex-end;
      }
-.bgimg{
+.bgimg .bgpic{
      height: 500px;
      width: 100%;
      background-image: url("School_5.jpg");
      background-size: cover;
      position: relative;
      top: 0;
-     z-index: 1000000;
      }
 .bgimg .overlay{
   height: 100%;
