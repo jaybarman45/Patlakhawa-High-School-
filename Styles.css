@@ -123,6 +123,7 @@ header p{
      background-size: cover;
      position: relative;
      top: 0;
+     z-index: 1000000;
      }
 .bgimg .overlay{
   height: 100%;
